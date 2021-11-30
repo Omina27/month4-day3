@@ -1,0 +1,51 @@
+.heading {
+    font-family: "Barlow";
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #830a83;
+}
+
+.inputlist {
+    padding: 15px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid darkmagenta;
+    margin-left: 26%;
+    margin-bottom: 15px;
+}
+
+.button {
+    width: 100px;
+    padding: 14px;
+    color: #fff;
+    background-color: darkmagenta;
+    border-radius: 10px;
+    border: 1px solid darkmagenta;
+    font-family: "Barlow";
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.button:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.button:active {
+    background-color: #976b97d2;
+}
+
+.list {
+    max-width: 700px;
+    min-height: 500px;
+    border: 2px solid darkmagenta;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: #fff;
+      
+}
+

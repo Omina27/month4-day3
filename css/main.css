@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -347,6 +348,10 @@ body {
   font-family: "Arial",sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-image: url(../../images/photo_2021-11-30_13-43-57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 *, *::after, *::before {
@@ -355,11 +360,11 @@ body {
 }
 
 .container {
-  max-width: px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: px;
-  padding-right: px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .visually-hidden {
@@ -373,13 +378,59 @@ body {
   clip: rect(0 0 0 0);
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 ul, div {
   margin: 0;
   padding: 0;
+}
+
+.heading {
+  font-family: "Barlow";
+  margin: 0;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #830a83;
+}
+
+.inputlist {
+  padding: 15px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid darkmagenta;
+  margin-left: 26%;
+  margin-bottom: 15px;
+}
+
+.button {
+  width: 100px;
+  padding: 14px;
+  color: #fff;
+  background-color: darkmagenta;
+  border-radius: 10px;
+  border: 1px solid darkmagenta;
+  font-family: "Barlow";
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.button:hover {
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+}
+
+.button:active {
+  background-color: #976b97d2;
+}
+
+.list {
+  max-width: 700px;
+  min-height: 500px;
+  border: 2px solid darkmagenta;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
